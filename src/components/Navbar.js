@@ -1,7 +1,7 @@
-import { AppBar, IconButton, Toolbar, Typography } from "@material-ui/core";
+import { AppBar, IconButton,   Toolbar, Typography } from "@material-ui/core";
 import React from "react";
 import MenuIcon from "@material-ui/icons/Menu"
-
+ 
 const Navbar=()=>{
     return(
         <AppBar position="static">
@@ -11,6 +11,8 @@ const Navbar=()=>{
                 </IconButton>
                 <Typography>Live Score</Typography>
             </Toolbar>
+
+
         </AppBar>
           
          );

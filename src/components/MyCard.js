@@ -11,8 +11,9 @@ const MyCard =({ match })=>{
     const handleClick=(id)=>
     {
         getMatchDetail(id).then((data)=>{
-            console.log("MATCH DETAIL:", data)
+           
             setDetail(data);
+            console.log(data);
             handleOpen();
         }
         

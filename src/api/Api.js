@@ -5,7 +5,6 @@ export const getMatches=()=>{
     return fetch(url)
     .then((response)=>response.json(response.data))
     .catch((error)=>console.log("ERROR",error));
-    
 };
 
 export const getMatchDetail=(id)=>{
